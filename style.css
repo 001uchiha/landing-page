@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 60px;
+	background: #1f2937;
+}
+
+.header .logo {
+	color: #f9faf8;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.nav ul li{
+	display: inline-block;
+	list-style: none;
+	font-size: 18px;
+	margin: 0 15px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: #e5e7eb;
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+	background: #1f2937;
+}
+
+.hero-text {
+	max-width: 50%;
+	line-height: 1.6;
+}
+
+.hero-text h2 {
+	font-size: 48px;
+	color: #f9faf8;
+	font-weight: 900;
+	line-height: 1.2;
+}
+
+.hero-text p {
+	font-size: 18px;
+	color: #e5e7eb;
+	margin-bottom: 20px;
+}
+
+.hero-img img {
+	max-width: 100%;
+	height: auto;
+}
+
+.cta-btn {
+	border: none;
+	padding: 6px 25px;
+	background: #3882f6;
+	color: #fff;
+	border-radius: 6px;
+}
+
+.features {
+	padding: 40px 20px;
+	text-align: center;
+}
+.features h2 {
+	font-size: 36px;
+	color: #1f2937;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+}
+
+.info img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.info .text {
+	max-width: 200px;
+}
+
+.testimonials {
+	background: #e5e7eb;
+	margin-bottom: 60px;
+	padding: 60px 40px;
+}
+
+.testimonials .quote p {
+	font-style: italic;
+	color: #1f2937;
+	font-size: 36px;
+}
+
+.testimonials .cite {
+	text-align: right;
+	margin-right: 30px;
+	font-weight: bold;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 60px 0;
+}
+
+.call-to-action {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 40px 20px;
+	background: #3882f6;
+	line-height: 1.2;
+	width: 75%;
+	border-radius: 6px;
+	gap: 30px;
+}
+
+.cta-text h2 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.cta-text p {
+	font-size: 14px;
+	color: #e5e7eb;
+}
+
+.call-to-action .cta-btn {
+	border: 1px solid #fff;
+	background: transparent;
+}
+
+.footer {
+	background: #1f2937;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
